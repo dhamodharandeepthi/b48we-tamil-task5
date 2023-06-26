@@ -12,7 +12,7 @@
 a. Print odd numbers in an array:
 
 javascript
-Copy code
+
 // Anonymous Function
 const printOddNumbers = function(arr) {
   arr.forEach(function(num) {
@@ -30,13 +30,13 @@ const printOddNumbers = function(arr) {
     }
   });
 })([1, 2, 3, 4, 5]);
-Explanation:
+
 
 
 b. Convert all the strings to title caps in a string array:
 
 javascript
-Copy code
+
 // Anonymous Function
 const convertToTitleCaps = function(arr) {
   const result = arr.map(function(str) {
@@ -52,13 +52,13 @@ const convertToTitleCaps = function(arr) {
   });
   console.log(result);
 })(['hello', 'world', 'javascript']);
-Explanation:
+
 
 
 c. Sum of all numbers in an array:
 
 javascript
-Copy code
+
 // Anonymous Function
 const calculateSum = function(arr) {
   let sum = 0;
@@ -80,7 +80,7 @@ const calculateSum = function(arr) {
 d. Return all the prime numbers in an array:
 
 javascript
-Copy code
+
 // Anonymous Function
 const getPrimeNumbers = function(arr) {
   const isPrime = function(num) {
@@ -120,7 +120,7 @@ const getPrimeNumbers = function(arr) {
 e. Return all the palindromes in an array:
 
 javascript
-Copy code
+
 // Anonymous Function
 const getPalindromes = function(arr) {
   const isPalindrome = function(str) {
@@ -152,7 +152,7 @@ const getPalindromes = function(arr) {
 f. Return median of sorted arrays of the same size:
 
 javascript
-Copy code
+
 // Anonymous Function
 const getMedian = function(arr1, arr2) {
   const mergedArray = arr1.concat(arr2);
@@ -184,7 +184,7 @@ const getMedian = function(arr1, arr2) {
 g. Remove duplicates from an array:
 
 javascript
-Copy code
+
 // Anonymous Function
 const removeDuplicates = function(arr) {
   const uniqueArray = arr.filter(function(item, index) {
@@ -206,7 +206,7 @@ const removeDuplicates = function(arr) {
 h. Rotate an array by k times:
 
 javascript
-Copy code
+
 // Anonymous Function
 const rotateArray = function(arr, k) {
   const rotations = k % arr.length;
